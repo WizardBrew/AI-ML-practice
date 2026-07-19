@@ -29,7 +29,7 @@ else:
 
 checkResult = float(input("Enter your marks: "))
 
-if checkResult >= 90:
+if checkResult >= 90:                   #(we can add isdigit in advance we see further -- remind me)
     print("You got A grade.");  # agar marks 90 se uppar ya 90 ke barabar hai to yeh print hoga.
 elif checkResult >= 70 and checkResult < 90:
     print("You got B grade.");  # agar marks 70 se uppar ya 70 ke barabar hai aur 90 se chota hai to yeh print hoga.
@@ -37,7 +37,32 @@ elif checkResult >= 50 and checkResult < 70:
     print("You got C grade.");  # agar marks 50 se uppar ya 50 ke barabar hai aur 70 se chota hai to yeh print hoga.
 
 else:
-    print("You got D grade.");  # agar marks 50 se chota hai to yeh print hoga.
+    print("You got D grade.");  # agar marks 50 se chota hai to yeh print hoga.  
+
+
+#Homework: check gratest of two numbers using if else statement.
+# check if the given number is + / - or null
+
+# Tomorrow we can solve this again.
+
+firstNumber = int(input('Enter the first number : '));
+secondNumber = int(input('Enter second number: '));
+
+if firstNumber > secondNumber:
+    print('first number is greater', firstNumber);
+elif firstNumber == secondNumber:
+    print("They are equal to each other")
+else:
+    print('second number is greater', secondNumber);
+
+# HW - Second Prog
+
+if firstNumber > 0:
+    print("entered number is positive");
+elif firstNumber == 0:
+    print("Number is zero or null");
+else:
+    print("Number is negative");
 
 
 
