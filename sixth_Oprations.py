@@ -57,6 +57,6 @@ print(res);  # Prints the value of res which is True            (yeh opposite ha
 # till here all clear? Tomorrow we will learn about Bitwise Operators. Homework use it in samll cases and expalin it to me.
 
  
- # Bitwise Operators     
+ # Bitwise Operators.    
 
- 
+
