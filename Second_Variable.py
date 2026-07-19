@@ -19,7 +19,7 @@ Not valid Variable Names in Python
 
 
 '''
-Cases in programming languages
+#Cases in programming languages
 
 camelCase = myVariableName;  # First letter of the first word is lowercase, and the first letter of each subsequent word is capitalized.
 PascalCase = MyVariableName;  # First letter of each word is capitalized.

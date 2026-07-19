@@ -1,9 +1,6 @@
 #DataTypes
 
 #Integer
-from xmlrpc.client import boolean
-
-
 a = 10;   #Numbers from -infinity to +infinity are considered as Integers in Python.
 print(type(a));  # Prints the type of a which is <class 'int'>
 print(a);  # Prints the value of a which is 10
@@ -40,4 +37,3 @@ print(boolean_b);  # Prints the value of boolean_b which is False
 none = None;  # None is a special constant in Python that represents the absence of a value or a null value.
 print(type(none));  # Prints the type of none which is <class 'NoneType'>
 print(none);  # Prints the value of none which is None.
-
