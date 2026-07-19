@@ -35,3 +35,35 @@ bodmas = (a + b * 2);  # Prints the value of a + b * 2 which is 20 -- Operator P
 # bodmas  = (a + b) * 2;  # Prints the value of (a + b) * 2 which is 30 -- Operator Precedence
 # bodmas = (a + b) * 2 - 5;  # Prints the value of (a + b) * 2 - 5 which is 25 -- Operator Precedence ==> 15 * 2 - 5 = 30 - 5 = 25 | theek hai? 
 print(bodmas);  # Prints the value of bodmas which is 20    
+
+
+
+
+# Comparison Operators
+
+res = a == b;  # Equality Operator -- Returns True if two numbers are equal, False otherwise.
+print(res);  # Prints the value of res which is False
+
+res = a == 10;  # Equality Operator -- Returns True if two numbers are equal, False otherwise.
+print(res);  # Prints the value of res which is True
+
+
+res = a != b;  # Inequality Operator -- Returns True if two numbers are not equal, False otherwise.
+print(res);  # Prints the value of res which is True
+
+res = a != 10;  # Inequality Operator -- Returns True if two numbers are not equal, False otherwise.
+print(res);  # Prints the value of res which is False
+
+
+
+res = a > b;  # Greater Than Operator -- Returns True if the first number is greater than the second, False otherwise.
+print(res);  # Prints the value of res which is True
+
+res = a < b;  # Less Than Operator -- Returns True if the first number is less than the second, False otherwise.
+print(res);  # Prints the value of res which is False
+
+res = a >= b;  # Greater Than or Equal Operator -- Returns True if the first number is greater than or equal to the second, False otherwise.
+print(res);  # Prints the value of res which is True
+
+res = a <= b;  # Less Than or Equal Operator -- Returns True if the first number is less than or equal to the second, False otherwise.
+print(res);  # Prints the value of res which is False
